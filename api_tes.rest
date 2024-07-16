@@ -1,0 +1,15 @@
+### Register
+POST http://172.17.2.76:8080/api/people/register HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "John Doe",
+    "email": "john2@example.com",
+    "phone": "08123131321",
+    "password": "password",
+    "password_confirmation": "password"
+}
+
+####
+GET http://172.17.2.76:8080/api/people/datapeople
+Content-Type: application/json
